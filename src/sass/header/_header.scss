@@ -1,0 +1,28 @@
+/* Site Header
+---------------------------------------------- */
+
+.site-header {
+	padding: 15px 30px;
+	background-color: $site-header--background-color;
+	box-shadow: 0 0 $box-shadow-blur-radius rgba(0, 0, 0, $box-shadow-opacity);
+
+	@media only screen and (min-width: $standard-screen-width) {
+		width: 100%;
+	}
+
+	.wrap{
+		width: 100%;
+    	display: flex;
+   		justify-content: flex-start;
+		flex-direction: row;
+		@include media-breakpoint-up (md) {
+			flex-direction: row;
+		}
+
+	}
+}
+
+
+
+
+

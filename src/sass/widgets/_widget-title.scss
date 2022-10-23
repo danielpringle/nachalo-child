@@ -1,0 +1,18 @@
+/* Widget Title
+--------------------------------------------- */
+.widgettitle {
+
+    letter-spacing: 2px;
+    font-family: $headings--font-family;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: $font-weight--regular;
+    padding-bottom: 4px;
+    color: $widget-title--font-color;
+    border-bottom: 2px solid #66999a;
+}
+
+.sidebar .widget-title a {
+	color: $sidebar__widget-title--font-color;
+	text-decoration: none;
+}

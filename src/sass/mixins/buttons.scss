@@ -1,0 +1,86 @@
+// scss-docs-start btn-variant-mixin
+@mixin button-variant(
+    $background,
+    $border,
+    $color,
+    $hover-background,
+    $hover-border,
+    $hover-color,
+    $active-background,
+    $active-border,
+    $active-color,
+    $disabled-background,
+    $disabled-border,
+    $disabled-color
+) {
+    color: $color;
+    border-color: $border;
+    display: inline-block;
+    font-family: $btn-font-family;
+    font-weight: $btn-font-weight;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    text-align: center;
+    text-decoration: $btn-text-decoration;
+    white-space: $btn-white-space;
+    vertical-align: middle;
+    cursor: if($enable-button-pointers, pointer, null);
+    user-select: none;
+    border: $btn-border-width solid;
+    background-color: $background;
+    padding: $btn-padding-y $btn-padding-x;
+    border-radius: $btn-border-radius;
+    position: relative;
+    padding-right: 35px;
+    transition: padding 0.3s ease-out 0s;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 16px;
+        right: 0;
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-left: 7px solid $monochrome-1;
+        margin-right: 20px;
+      }
+
+    &:hover {
+        background-color: $hover-background;
+        border-color: $hover-border;
+        color: $hover-color;
+        text-decoration: $btn-hover-text-decoration;
+        padding-right: 45px;
+        &::after {
+            border-left: 7px solid $monochrome-1;
+          }
+    }
+
+    &:focus {
+        color: $color; 
+        border-color: $border;
+    }
+
+    &:hover:focus {
+        color: $hover-color;
+        border-color: $hover-border;
+    }
+
+    &:active {
+        color: $active-color;
+        background-color: $active-background;
+        border-color: $active-border;
+    }
+
+    &:disabled {
+        color: $disabled-color;
+        background-color: $disabled-background;
+        border-color: $disabled-border;
+        opacity: $btn-disabled-opacity;
+        pointer-events: none;
+    }
+
+}

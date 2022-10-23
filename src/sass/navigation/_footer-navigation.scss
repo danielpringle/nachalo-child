@@ -1,0 +1,32 @@
+/* Secondary Navigation
+--------------------------------------------- */
+
+.footer-navigation {
+	
+	margin-top: 0px;
+	background-color: $nav-secondary--background-color;
+	text-align: center;
+	padding: 10px 0;
+	
+	.nachala-nav-menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		text-align: left;
+
+		.menu-item {
+			width: 50%;
+		}
+
+		@include media-breakpoint-up (md) {
+			flex-wrap: nowrap;
+			text-align: unset;
+			.menu-item {
+				width: auto;
+			}
+		}
+	}
+
+}

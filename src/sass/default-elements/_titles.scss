@@ -1,0 +1,27 @@
+/* Titles
+--------------------------------------------- */
+
+.archive-title,
+.author-box-title {
+	margin-bottom: 10px;
+	font-size: $archive-author-box__entry-title--font-size;
+	font-weight: $font-weight--semibold;
+}
+
+.entry-title {
+	margin-bottom: 10px;
+	font-size: $entry-title--font-size;
+
+	a {
+		color: $entry-title__link--font-color;
+		text-decoration: none;
+	}
+
+	a:focus,
+	a:hover {
+		color: $entry-title__link--font-color-hover;
+	}
+}
+
+
+

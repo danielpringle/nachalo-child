@@ -1,0 +1,56 @@
+/* Primary Navigation
+--------------------------------------------- */
+
+.primary-navigation{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+	background-color: transparent;
+
+	@include media-breakpoint-up (md) {	
+		margin-left: auto;
+		flex-direction: row;
+	}
+	
+
+	.primary-menu-container {
+		display: none;
+
+		&.navigation-open{
+			display: flex;
+		}
+		@include media-breakpoint-up (md) {	
+		 	display: flex;
+
+		}
+
+	}
+
+
+
+	.nachala-nav-menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		width: 100%;
+		@include media-breakpoint-up (md) {	
+			flex-direction: row;
+		}
+		
+	}
+
+	
+}
+
+
+@include media-breakpoint-up (md) {	
+	#nachalo-mobile-nav-primary{
+		display: none;
+	}
+
+	.menu-toggle{
+		display: none;
+	}
+}
+
+

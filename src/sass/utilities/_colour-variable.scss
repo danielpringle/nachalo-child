@@ -1,0 +1,235 @@
+//--------------------------------------------------------------
+// COLOUR VARIABLES
+//--------------------------------------------------------------
+
+// Colour Palette 
+//-----------------------------------------
+$black: 			#000;
+$white: 			#fff;
+
+//green
+$fruit-salad: 		#4CAF50;
+$tusk: 		  		#dff2bf;
+$vida-loca: 		#4f8a10;
+$asparagus: 		#86a36e; 
+$pine-glade:		#b2ce96; 
+$tea-green:			#d9edc2; 
+//orange
+$orange-peel: 		#FF9800;
+$tangerine: 		#e68a00;
+//red
+$pomegranate: 		#F44336;
+$monza: 			#da190b;
+$red: 				#ff0000;
+$shilo: 			#e9b3b3; 
+$old-rose: 			#c78787; 
+$cherub:			#f9dbdb;
+$guardsman-red:   	#b00;
+$cardinal: 			#cb2027;
+//blue
+$dodger-blue: 		#2196F3;
+$lochmara: 			#0b7dda;
+$science-blue: 		#0073e5;
+$regent-st-blue: 	#afcde3;
+$nepal: 			#83a2be;
+$blue-bell: 		#9291c7; 
+$link-water:		#d8ecf7;
+$rock-blue:			#93B6C9;
+$chambray:  		#3b5998;
+$cerulean:   		#00aced;
+$deep-cerulean:  	#007bb6;
+$wedgewood: 		#517fa4;
+//purple
+$periwinkle-gray: 	#bebde9; 
+$moon-raker:		#e2e2f9; 
+//yellow
+$yellow:			#ffff00;
+$cherokee: 			#fadf98; 
+$porsche: 			#ecb870; 
+$beeswax:			#fef5c4;
+
+$turquoise: 		#3acec2;
+
+$gold: 				#ffd700;
+
+// Grayscale Colors
+//-----------------------------------------
+$gunmetal: 			#2C3539;
+$mine-shaft: 		#333;
+$boulder: 			#777;
+$dove-grey: 		#666;
+$grey: 				#808080;
+$silver: 			#cccccc;
+$alto: 				#d3d3d3;
+$gallery:			#eee;
+$mercury:			#e2e2e2; 
+$white-smoke: 		#f5f5f5;
+
+// Social Media Colours
+//-----------------------------------------
+$color-facebook:  	$chambray; 
+$color-instagram: 	$wedgewood; 
+$color-linkedin:  	$deep-cerulean; 
+$color-pinterest: 	$cardinal; 
+$color-rss:       	$orange-peel; 
+$color-twitter:   	$cerulean; 
+$color-youtube:   	$guardsman-red;
+
+// Notification Colours
+//-----------------------------------------
+$color-success: $fruit-salad;
+$color-success--hover: $vida-loca;
+$color-error: $pomegranate;
+$color-error--hover: $monza;
+$color-warning: $orange-peel;
+$color-warning--hover: $tangerine;
+$color-info: $dodger-blue;
+$color-info--hover: $lochmara;
+
+//-----------------------------------------
+// Theme Colours
+//---
+
+$theme-color--primary-color: $lochmara;
+$theme-color--secondary-color: $rock-blue;
+$theme-color--accent-color: $mine-shaft; 
+$theme-color--background-color: $lochmara; 
+
+
+// Body Colour
+$body--background-color: $white;
+
+// Font colours
+//=============
+$body--font-color: $mine-shaft;
+$link--font-color: $theme-color--primary-color;
+$link--font-color-hover: $mine-shaft;
+
+// Buttons
+//===========
+$button--font-color: $white;
+$button--background-color: $mine-shaft;
+$button--font-color-hover: $white;
+$button--background-color-hover: $science-blue;
+$button--background-color-success: $color-success;
+$button--background-color-success-hover: $color-success--hover;
+$button--background-color-error: $color-error;
+$button--background-color-error-hover: $color-error--hover;
+$button--background-color-warning: $color-warning;
+$button--background-color-warning-hover: $color-warning--hover;
+$button--background-color-info: $color-info;
+$button--background-color-info-hover: $color-info--hover;
+
+// Header
+//===========
+$site-title__link--font-color: $mine-shaft;
+$site-header--background-color: $white;
+
+// Navigation
+//===========
+$nav-primary--background-color: $theme-color--secondary-color;
+$nav-secondary--background-color: $theme-color--secondary-color;
+//
+$genesis-nav-menu--font-color: $mine-shaft;
+$genesis-nav-menu--font-color-hover: $white-smoke;
+$genesis-nav-menu__sub-menu__link--background-color: $white;
+//
+$menu-toggle--font-color: $mine-shaft;
+$menu-toggle--font-color-hover: $white-smoke;
+//
+$sub-menu-toggle--font-color: $mine-shaft;
+$sub-menu-toggle--font-color-hover: $science-blue;
+$menu-highlight__link--font-color: $white;
+$menu-highlight__link--background-color: $mine-shaft;
+$menu-highlight__link--background-color-hover: $science-blue;
+
+// Entry Content
+//===================
+$entry-title__link--font-color: $theme-color--primary-color;
+$entry-title__link--font-color-hover: $mine-shaft;
+
+// Footer
+//==================
+$footer-widgets--background-color: $white;
+
+// Sidebar
+//==================
+$sidebar__widget-title--font-color: $mine-shaft;
+
+// Form Elements
+//==================
+$forms--font-color: $mine-shaft;
+$forms__background-color: $white;
+
+// Comments
+//===================
+
+// Widgets
+//===================
+$widget-title--font-color: $mine-shaft;
+
+// General Components
+$archive-pagination--font-color: $mine-shaft;
+$archive-pagination--font-color-hover: $white;
+$archive-pagination--background-color: $white-smoke;
+$archive-pagination--background-color-hover: $mine-shaft;
+$mark--background-color: $alto;
+$sticky--background-color: $white-smoke;
+$author-box--background-color: $white-smoke;
+$code--background-color: $white-smoke;
+$disabled--font-color: $boulder;
+$disabled--background-color: $white-smoke;
+
+// Misc
+//===========
+$star-rating--color: $gold;
+
+// Breadcrumbs
+//=============
+$breadcrumb--font-color: $black;
+$breadcrumb-link--font-color: $black;	
+$breadcrumb-link--font-color-hover:	$science-blue;
+
+
+// Plugins
+//===================
+$gs-faq__question--font-color: $mine-shaft;
+$gs-faq__question--font-color-hover: $science-blue;
+$enews__sidebar--background-color: $white-smoke;
+
+$newsletter--background-color: $theme-color--primary-color;
+
+// Button Background colors
+$button--background-blue: $regent-st-blue;
+$button--background-blue-hover: $nepal;
+$button--background-grey:$dove-grey; 
+$button--background-grey-hover: $grey;
+$button--background-green: $pine-glade;
+$button--background-green-hover: $asparagus;
+$button--background-purple: $periwinkle-gray;
+$button--background-purple-hover: $blue-bell;
+$button--background-red: $shilo;
+$button--background-red-hover: $old-rose;
+$button--background-yellow: $cherokee;
+$button--background-yellow-hover: $porsche;
+
+// Content Boxes Background colors
+$content-box--background-blue:$link-water; //Link Water
+$content-box--background-grey:$mercury; // Mercury
+$content-box--background-green:$tea-green; // Tea Green
+$content-box--background-purple:$moon-raker; // Moon Raker
+$content-box--background-red:$cherub; // Cherub
+$content-box--background-yellow:$beeswax; // Beeswax
+//$content-box--background-theme-colour:#3acec2; //Turquoise
+	
+// Content Boxes Border colors
+$content-box--border-blue: $regent-st-blue;
+$content-box--border-grey: $dove-grey;
+$content-box--border-green: $pine-glade;
+$content-box--border-purple: $periwinkle-gray;
+$content-box--border-red: $old-rose;
+$content-box--border-yellow: $cherokee;
+//$content-box--border-theme-colour: $turquoise;	
+
+
+

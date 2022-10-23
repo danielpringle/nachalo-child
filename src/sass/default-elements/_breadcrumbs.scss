@@ -1,0 +1,62 @@
+.breadcrumbs {
+    background-color: transparent;
+  }
+  
+  .breadcrumb {
+    align-items: center;
+    display: none;
+    flex-wrap: wrap;
+    height: 80px;
+    justify-content: flex-start;
+  }
+  
+  .breadcrumb a {
+    // color: $body-color;
+    // font-size: $font-size-base * 0.875;
+    padding-right: 1rem;
+    text-decoration: none;
+    &:hover {
+      color: green;
+      text-decoration: underline;
+    }
+  }
+  
+  .breadcrumb p {
+    // font-size: $font-size-base * 0.875;
+    padding-right: 1rem;
+  }
+  
+  .breadcrumb i,
+  .breadcrumb-seperator, 
+  .breadcrumb .seperator {
+    margin-right: 1rem;
+  }
+  
+  .current-breadcrumb,
+  .breadcrumb_last {
+    text-decoration: none;
+    color: red;
+    margin: 0;
+    
+  }
+  
+  .breadcrumb-triangle {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 0;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-left: 7px solid currentColor !important;
+    border-bottom: 6px solid transparent;
+  }
+  
+  /* Media Queries */
+  
+  @include media-breakpoint-up(lg) {
+    .breadcrumb {
+      display: flex;
+    }
+  }

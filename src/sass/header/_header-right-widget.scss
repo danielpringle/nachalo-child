@@ -1,0 +1,33 @@
+/* Header right
+--------------------------------------------- */
+
+.widget-area.header-widget-area {
+	width: 100%;
+    /* max-width: 790px; */
+    text-align: center;
+    clear: both;
+    padding-top: 20px;
+	
+@media only screen and (min-width: $standard-screen-width) {
+	float: right;
+    text-align: right;
+    width: 70%;
+	padding-top: 0;
+	clear: none;
+}
+	
+	.simple-social-icons ul {
+    text-align: right;
+}
+
+}
+
+.widget-area.header-widget-area .simple-social-icons ul {
+    text-align: center;
+
+@media only screen and (min-width: $standard-screen-width) {
+	text-align: right;
+	}
+
+}
+

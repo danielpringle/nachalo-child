@@ -1,0 +1,72 @@
+/* Title Area
+--------------------------------------------- */
+
+.site-branding {
+    display: flex;
+	flex-direction: column;
+	flex-direction: row;
+	z-index: 999;
+
+}
+
+
+.title-area {
+	padding: 0px;
+	
+}
+
+.site-logo{
+	width: auto;
+	max-width: 350px;
+	margin-top: auto;
+	margin-right: 15px;
+	img {
+		width: 100px;
+	}
+	
+	@include media-breakpoint-up (md) {
+		width: 100%;
+	}
+}
+
+
+
+.site-title {
+	margin: 0 0 15px 0;
+	padding: 12px 12px 12px 12px;
+	font-weight: $font-weight--semibold;
+	line-height: $line-height--smaller;
+
+	a,
+	a:focus,
+	a:hover {
+		color: $site-title__link--font-color;
+		text-decoration: none;
+	}
+
+
+}
+.site-description {
+	margin: 0;
+	padding: 0;
+}
+
+// .site-title {
+// 	overflow: hidden;
+// 	clip: rect(0, 0, 0, 0);
+// 	position: absolute !important;
+// 	width: 1px;
+// 	height: 1px;
+// 	border: 0;
+// 	word-wrap: normal !important;
+// }
+
+.site-description {
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	border: 0;
+	word-wrap: normal !important;
+}

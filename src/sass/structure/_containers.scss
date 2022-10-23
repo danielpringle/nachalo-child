@@ -1,0 +1,46 @@
+/* Containers
+--------------------------------------------- */
+
+.container{
+
+    position: relative;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+
+	@include media-breakpoint-up (xs) {
+		// background-color: red;
+		max-width: map-get($container-max-widths, xs);
+	}
+	@include media-breakpoint-up (sm) {
+		// background-color: green;
+		max-width: map-get($container-max-widths, sm);
+	}
+	@include media-breakpoint-up (md) {
+		// background-color: yellow;
+		max-width: map-get($container-max-widths, md);
+	}
+	@include media-breakpoint-up (lg) {
+		// background-color: blue;
+		max-width: map-get($container-max-widths, lg);
+	}
+	@include media-breakpoint-up (xl) {
+		// background-color: grey;
+		max-width: map-get($container-max-widths, xl);
+	}
+	@include media-breakpoint-up (xxl) {
+		// background-color: black;
+		max-width: map-get($container-max-widths, xxl);
+	}
+}
+
+.container-fluid{
+
+    position: relative;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+	//background-color: aquamarine;
+}

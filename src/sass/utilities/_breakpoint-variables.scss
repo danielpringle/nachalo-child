@@ -1,0 +1,39 @@
+// max-widths
+$desktop-max-width: 1140px;
+
+// Screen widths, Media queries - WC widths in WC variables
+
+$large-screen-width: 1140px;
+$standard-screen-width: 960px;
+$small-screen-width: 600px;
+$tablet-screen-width: 768px;
+$mobile-screen-width: 320px;
+
+
+// Prefix for :root CSS variables
+$variable-prefix: id-;
+
+// Grid Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1201px,
+  xxl: 1400px
+);
+
+// Container Max Widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+// Grid Columns
+$grid-gutter-width: 24px;
+
+// Spacing
+$spacing: 0.75rem;

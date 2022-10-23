@@ -1,0 +1,12 @@
+/* Content
+--------------------------------------------- */
+
+.content {
+
+	margin-left: auto;
+    margin-right: auto;
+	@include media-breakpoint-up (lg) {	
+
+		width: 750px;
+	}
+}
